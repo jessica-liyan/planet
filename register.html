@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>注册</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="login flex-v align-center just-center t-c">
+    <h1>买家星球<img src="img/logo.png" alt=""></h1>
+    <div class="input">
+      <img src="img/user.png" alt="">
+      <input type="text" placeholder="请输入手机号" onblur="toast('手机号不能为空！', this.value)">
+    </div>
+    <div class="input code flex-h align-center">
+      <img src="img/password.png" alt="">
+      <input type="text" placeholder="请输入验证码" onblur="toast('验证码不能为空！', this.value)">
+      <a href="#" class="code-btn">获取验证码</a>
+    </div>
+    <div class="input">
+      <img src="img/love.png" alt="">
+      <input type="text" placeholder="请输入邀请码" onblur="toast('邀请码不能为空！', this.value)">
+    </div>
+    <a href="#" class="btn" class="txt">注册</a>
+    <a href="index.html" class="bottom">已有账号？前往登录</a>
+  </div>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

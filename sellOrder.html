@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>卖出委托</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="page flex-v blue">
+    <header class="header single">
+      <div class="row w">
+        <a href="tradingCenter.html" class="col v-m t-l"><img src="img/back1.png" alt=""></a>
+        <h1 class="col v-m t-c">卖出委托</h1>
+        <a href="#" class="col v-m t-l"></a>
+      </div>
+    </header>
+    <main class="main" style="margin-top:-15rem;">
+      <ul class="list">
+        <li class="fs-16 c-3">
+          <div style="width:80%;margin:2rem auto;">
+            <p class="fs-12 c-9" style="padding-left:6em;">可用购买力：<i class="c-blue">26802</i></p>
+            <div class="mt-10">
+              <span class="ib v-m" style="width:4em;">数量</span>
+              <div class="input gray"><input type="text" value="610" onblur="toast('数量不能为空！', this.value)"></div>
+            </div>
+            <div class="mt-15">
+              <span class="ib v-m" style="width:4em;">单价</span>
+              <i class="v-m">16.32</i>
+            </div>
+            <div class="mt-20">
+              <span class="ib v-m" style="width:4em;">交易额</span>
+              <i class="v-m">5682</i>
+            </div>
+            <a href="#" class="button button-round button-block mt-20">委托挂单</a>
+          </div>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

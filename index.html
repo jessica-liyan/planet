@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />  
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="format-detection" content="telephone=no">
+  <title>登录</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="login flex-v align-center just-center t-c">
+    <h1>买家星球<img src="img/logo.png" alt=""></h1>
+    <div class="input">
+      <img src="img/user.png" alt="">
+      <input type="text" placeholder="请输入账号" onblur="toast('账号不能为空！', this.value)">
+    </div>
+    <div class="input">
+      <img src="img/password.png" alt="">
+      <input type="text" placeholder="请输入密码" onblur="toast('密码不能为空！', this.value)">
+      <a href="#" class="txt">忘记密码？</a>
+    </div>
+    <a href="starBase.html" class="btn">登录</a>
+    <a href="register.html" class="bottom">没有账号？立即注册</a>
+  </div>
+  <script src="js/zepto.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
